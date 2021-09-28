@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap");
+body {
+    font-family: "Scheherazade New", serif;
+    font-size: 1.4rem;
+}
+
+.content-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.card:hover {
+    box-shadow: 0px 3px 3px -2px rgb(190 142 76), 0px 3px 4px 0px rgb(190 142 76), 0px 1px 8px 0px rgb(190 142 76);
+}
+
+.card p {
+    color: #388667;
+}
+
+.card span {
+    color: #855c1b;
+}
+
+.card-link {
+    width: 100%;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #855c1b;
+}
+
+.link:hover {
+    color: #388667;
+    text-decoration: underline;
+}
+
+.search {
+    width: 100%;
+    text-align: center;
+}
+
+.search input {
+    margin-bottom: 2rem;
+}
+
+input {
+    padding: 7.5px 15px;
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid #855c1b;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-size: 1.4rem;
+    color: #855c1b;
+    font-family: "Scheherazade New", serif;
+}
+
+input[type="text"]:focus {
+    font-size: 1.4rem;
+    color: #388667;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.filter label {
+    color: #855c1b;
+}
+
+.filter select {
+    width: 10%;
+    padding: 7.5px 15px;
+    margin: 0 auto;
+    border: 1px solid #855c1b;
+    border-radius: 5px;
+    font-family: "Scheherazade New", serif;
+    font-size: 1.4rem;
+}
